@@ -18,7 +18,8 @@ public class Category {
     private String Sudarshanshinde;
     private String name;
     private String resetTest1;
-    
+    private String resetTest2;
+
     @OneToMany(mappedBy = "category",
             cascade = CascadeType.ALL,
             fetch = FetchType.LAZY)
