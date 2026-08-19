@@ -17,7 +17,7 @@ public class Category {
     private Long id;
     private String Sudarshanshinde;
     private String name;
-
+    private String resetTest1;
     
     @OneToMany(mappedBy = "category",
             cascade = CascadeType.ALL,
